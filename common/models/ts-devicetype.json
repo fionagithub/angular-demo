@@ -1,0 +1,27 @@
+{
+    "name": "ts_devicetype",
+    "base": "PersistedModel",
+    "options": {
+        "validateUpsert": true
+    },
+    "properties": {
+        "devicetypeid": {
+            "type": "number",
+            "id": true,
+            "generated": false
+        },
+        "devicetypename": {
+            "type": "string"
+        },
+        "devicesystemtypeid": {
+            "type": "number"
+        },
+        "iconsrc": {
+            "type": "string"
+        }
+    },
+    "validations": [],
+    "relations": {},
+    "acls": [],
+    "methods": {}
+}

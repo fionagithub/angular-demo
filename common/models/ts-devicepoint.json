@@ -1,0 +1,32 @@
+{
+  "name": "ts_devicepoint",
+  "base": "PersistedModel",
+  "options": {
+    "validateUpsert": true
+  },
+  "properties": {
+    "deviceid": {
+      "type": "number",
+      "id": true,
+      "required": true
+    },
+    "cmdname": {
+      "type": "string"
+    },
+    "monitortypeid": {
+      "type": "number"
+    },
+    "datasource": {
+      "type": "string"
+    },
+    "monitor": {
+      "type": "string",
+      "id": true,
+      "required": true
+    }
+  },
+  "validations": [],
+  "relations": {},
+  "acls": [],
+  "methods": {}
+}

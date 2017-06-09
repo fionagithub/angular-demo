@@ -1,0 +1,28 @@
+<div layout="column" tabindex="-1" role="main" flex="" class="layout-column flex" ng-controller="MonitorgroupCtrl">
+    <md-content md-scroll-y="" layout-padding layout="column" flex="" class="_md layout-column flex">
+        <table class="md-api-table">
+            <thead>
+                <tr>
+                    <th> 监控组ID</th>
+                    <th> 设备类型 </th>
+                    <th> 描述</th>
+                    <th> 操作 </th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr ng-repeat='data in editData.showData.data' ng-class="{'selected':_oldSelectedRowObj.indexOf(data)!==-1 }" ng-click="selectedRow($index,data)">
+                    <td>{{data[DeviceField.MNT_GROUP_ID]}} </td>
+                    <td>
+                        <span ng-repeat="device in _deviceMonitor[data[DeviceField.MNT_GROUP_ID]]">
+                       {{device[DeviceField.TYPE_NAME]}} 
+                     </span>
+                    </td>
+                    <td> {{data[DeviceField.DESC]}}</td>
+                    <td>
+                        <inline-tools open="toggleRight(data)" delete='deleteData(data)' old='_oldSelectedRowObj' data='data' del='isDel'></inline-tools>
+                    </td>
+            </tbody>
+        </table>
+        <pagination-section> </pagination-section>
+    </md-content>
+</div>

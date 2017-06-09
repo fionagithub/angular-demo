@@ -1,0 +1,26 @@
+<div layout="column" tabindex="-1" role="main" flex="" class="layout-column flex" ng-controller="DeviceGroupDefineCtrl as dgdCtrl">
+    <md-content md-scroll-y="" layout-padding layout="column" flex="" class="_md layout-column flex">
+        <table class="md-api-table">
+            <thead>
+                <tr>
+                    <th>设备</th>
+                    <th>subDeviceId </th>
+                    <th>templateName</th>
+                    <th> 操作 </th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr ng-repeat='data in dgdCtrl.showData.data' ng-class="{'selected':dgdCtrl._oldSelectedRowObj.indexOf(data)!==-1}" ng-click="dgdCtrl.selectedRow($index,data)">
+                    <td>{{data[DeviceField.DEVICE_ID]}}
+                    </td>
+                    <td>{{data[DeviceField.SUBDEVICE_ID]}} </td>
+                    <td> {{data[DeviceField.TMP_NAME]}} </td>
+                    <td>
+                        <inline-tools open="dgdCtrl.toggleRight(data)" delete='dgdCtrl.deleteData(data)' old='dgdCtrl._oldSelectedRowObj' data='data' del='dgdCtrl.isDel'></inline-tools>
+                    </td>
+                </tr>
+            </tbody>
+        </table>
+        <pagination-section> </pagination-section>
+    </md-content>
+</div>

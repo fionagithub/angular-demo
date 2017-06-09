@@ -1,0 +1,18 @@
+<md-toolbar class="md-theme-indigo">
+    <div class="md-toolbar-tools">
+        <h3>
+          <span>点位系统</span>
+        </h3>
+    </div>
+</md-toolbar>
+<md-content role="navigation">
+    <ul class="docs-menu">
+        <li ng-repeat="section in category.sections" class="parent-list-item">
+            <h2 class="menu-heading" ng-if="section.type === 'heading'" id="heading_{{ section.name  }}">
+            {{section}}
+          </h2>
+            <menu-link section="section" linkdata="focusCategory" ng-if="section.type === 'link'"></menu-link>
+            <menu-toggle section="section" toggledata="focusCategory" ng-if="section.type === 'toggle'"></menu-toggle>
+        </li>
+    </ul>
+</md-content>

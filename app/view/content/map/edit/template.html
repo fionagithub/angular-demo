@@ -1,0 +1,45 @@
+<div ng-controller="MapDetailCtrl">
+   <md-sidenav class="md-sidenav-right" md-component-id="right">
+    <md-toolbar class="md-theme-indigo">
+        <h1 class="md-toolbar-tools">地图</h1>
+    </md-toolbar>
+    <md-content layout-padding="">
+        <form name="editList">
+            <md-input-container flex class="md-block">
+                <label> 区域</label>
+                <md-select required ng-model="editData.groupFieldName[DeviceField.MAP_NO]">
+                    <md-optgroup>
+                        <md-option ng-value="item[DeviceField.MAP_ID]" ng-repeat="item in editData.showAreaData">
+                            {{item[DeviceField.MAP_ID]+ ':' + item[DeviceField.MAP_NAME]}}
+                        </md-option>
+                    </md-optgroup>
+                </md-select> 
+            </md-input-container>
+            <md-input-container flex class="md-block">
+                <label> 地图名称 </label> 
+               <input name="mapname" required ng-minlength="2" ng-model="editData.groupFieldName[DeviceField.MAP_NAME]">
+                   <div ng-messages="editList.mapname.$error">
+                    <div ng-message="required">This is required.</div>
+                </div>
+                 </md-input-container>
+            <md-input-container flex class="md-block">
+                <p ng-hide="myFile"> {{editData.groupFieldName[DeviceField.SOURCE]}} </p>
+                <input type="file" file-model="myFile" />
+                <md-button ng-show="myFile" ng-click="uploadFile()" class="md-raised demo-dialog-open-button">上传文件
+                </md-button>
+            </md-input-container>
+            <md-input-container flex class="md-block">
+                <label> 地图类别 </label>
+                <input  ng-model="editData.groupFieldName[DeviceField.MAP_TYPE]">
+            </md-input-container>
+        </form>
+        <md-button class="md-raised demo-dialog-open-button" ng-click="save(editData.groupFieldName,'resave')">
+            更新
+        </md-button>
+        <md-button class="md-raised demo-dialog-close-button" ng-click="cancel()">
+            取消
+        </md-button>
+    </md-content>
+</md-sidenav>
+ 
+</div>

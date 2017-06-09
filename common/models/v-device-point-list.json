@@ -1,0 +1,44 @@
+{
+  "name": "V_DevicePointList",
+  "base": "PersistedModel",
+  "idInjection": true,
+  "options": {
+    "validateUpsert": true
+  },
+  "properties": {
+    "monitor": {
+      "type": "string",
+      "id": true,
+      "required": true
+    },
+    "deviceid": {
+      "type": "string",
+      "id": true,
+      "required": true
+    },
+    "devicename": {
+      "type": "string",
+      "required": true
+    },
+    "devicetypeid": {
+      "type": "number",
+      "required": true
+    },
+    "axisx": {
+      "type": "Boolean"
+    },
+    "axisy": {
+      "type": "Boolean"
+    },
+    "mapid": {
+      "type": "Boolean"
+    },
+    "deviceno": {
+      "type": "string"
+    }
+  },
+  "validations": [],
+  "relations": {},
+  "acls": [],
+  "methods": {}
+}

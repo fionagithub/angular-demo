@@ -1,0 +1,432 @@
+ body {
+     font-family: "Lantinghei SC", "Open Sans", "Lucida Grande", Helvetica, STheiti, Verdana, "microsoft yahei", "simsun", Geneva, sans-serif;
+     font-size: 14px;
+     background: #fafff9;
+     color: #c5d0de;
+ }
+ .content{
+     overflow: auto;
+ }
+ .md-sidenav-left {
+     overflow: hidden;
+     background: #343434;
+     top: 0;
+     bottom: 0;
+     z-index: 89;
+     height: 100%;
+ }
+ 
+ .docs-menu .menu-toggle-list a.md-button {
+     display: block;
+     padding: 0 16px 0 32px;
+     text-transform: none;
+     /* color: #8e9eab !important; */
+     text-rendering: optimizeLegibility;
+ }
+ 
+ .md-sidenav-left menu-link button:first-child,
+ menu-toggle button:first-child {
+     font-size: 16px;
+ }
+ 
+ menu-toggle ul {
+     background: #444;
+ }
+ 
+ .md-sidenav-left menu-toggle ul span {
+     padding-left: 30px;
+ }
+ 
+ .docs-menu .md-button {
+     border-radius: 0;
+     cursor: pointer;
+     color: #c5d0de;
+     display: block;
+     align-items: inherit;
+     line-height: 40px;
+     margin: 0;
+     max-height: 40px;
+     overflow: hidden;
+     padding: 0px 16px;
+     text-align: left;
+     text-decoration: none;
+     white-space: normal;
+     width: 100%;
+ }
+ 
+ .form-group {
+     margin-bottom: 10px;
+     width: 48%;
+     min-width: 430px;
+ }
+ 
+ .md-selected {
+     background: #02a2aa;
+ }
+ 
+ .site-sidenav md-content {
+     background: transparent;
+ }
+ 
+ .layout-column md-content:first-child {
+     margin: 50px;
+ }
+ .layout-row > .flex-33, .layout-row > .flex-33, .layout-row > .flex-33, .layout-row > .flex-33{
+     margin: 0 20px;
+ }
+ .layout-column md-content {
+     margin: 0 50px;
+     border-bottom: 1px solid #eee;
+     border-spacing: 0;
+     padding: 10px;
+     margin: 0 20px;
+     border-radius: 8px;
+     background: #fff;
+     box-shadow: 0 1px 2px rgba(31, 35, 37, .08);
+ }
+ 
+ md-toolbar {
+     top: 0 !important;
+     background-color: #444343 !important;
+ }
+ 
+ .md-theme-indigo {
+     border-color: #333c47;
+     z-index: 3;
+ }
+ 
+ .site-content-toolbar {
+     background-color: #fff !important;
+     border: none;
+     z-index: 3;
+     box-shadow: 0 1px 2px rgba(0, 0, 0, .35);
+ }
+ 
+ md-toast._md-right {
+     right: 30%;
+ }
+ 
+ md-toast {
+     right: 0 !important;
+ }
+ 
+ .md-toggle-icon {
+     display: block;
+     margin-left: auto;
+     speak: none;
+     vertical-align: middle;
+     transform: rotate(180deg);
+     -webkit-transform: rotate(180deg);
+     transition: transform 0.3s ease-in-out;
+     -webkit-transition: -webkit-transform 0.3s ease-in-out;
+ }
+ 
+ .menu-toggle-list.ng-hide {
+     max-height: 0;
+ }
+ 
+ .md-toggle-icon.toggled {
+     transform: rotate(0deg);
+     -webkit-transform: rotate(0deg);
+ }
+ 
+ .md-toolbar-item {
+     color: black;
+ }
+ 
+ md-icon {
+     color: #fff;
+ }
+ 
+ ul {
+     list-style: none;
+     padding: 0;
+     max-width: 100%;
+     cursor: pointer;
+     overflow-x: hidden;
+ }
+ 
+ li {
+     list-style-position: inside;
+ }
+ 
+ .side-menu > li {
+     border-top: 1px solid rgba(0, 0, 0, 0.12);
+ }
+ 
+ .fa.pull-right {
+     margin: .7em;
+ }
+ 
+ .md-button-toggle .md-toggle-icon {
+     display: block;
+     margin-left: auto;
+     speak: none;
+     vertical-align: middle;
+     transform: rotateZ(0deg);
+     -webkit-transform: rotateZ(0deg);
+     transition: transform 0.3s ease-in-out;
+     -webkit-transition: -webkit-transform 0.3s ease-in-out;
+ }
+ 
+ .md-button-toggle .md-toggle-icon.toggled {
+     transform: rotateZ(180deg);
+     -webkit-transform: rotateZ(180deg);
+ }
+ 
+ .site-sidenav h3 span {
+     font-color: #e24329;
+ }
+ 
+ .side-menu,
+ .side-menu ul {
+     font-size: 16px;
+     list-style: none;
+     padding: 0;
+     margin-top: 0;
+ }
+ 
+ .side-menu .md-button.active {
+     color: #2e3134;
+ }
+ 
+ .side-menu .menu-toggle-list .md-button {
+     display: block;
+     padding: 0 16px 0 32px;
+     text-transform: none;
+ }
+ 
+ .md-button-toggle .md-toggle-icon.toggled {
+     transform: rotateZ(180deg);
+     -webkit-transform: rotateZ(180deg);
+ }
+ 
+ .docs-toolbar-tools .md-button md-icon {
+     color: #666 !important;
+     fill: #666 !important;
+ }
+ 
+ .side-menu .md-button {
+     border-radius: 0;
+     color: inherit;
+     cursor: pointer;
+     font-weight: 400;
+     line-height: 40px;
+     margin: 0;
+     max-height: 40px;
+     overflow: hidden;
+     padding: 0px 16px;
+     text-align: left;
+     text-decoration: none;
+     white-space: normal;
+     width: 100%;
+ }
+ 
+ .side-menu menu-toggle span {
+     padding-top: 12px;
+     padding-bottom: 12px;
+ }
+ 
+ md-dialog md-dialog-content .md-dialog-content-body {
+     padding: 5px;
+     padding-left: 20px;
+ }
+ 
+ .container {
+     width: 50%;
+     margin-top: 20px;
+ }
+ 
+ .modal-footer {
+     border-top: 0;
+ }
+ 
+ .modal-dialog {
+     display: block;
+     background: #fff;
+     box-shadow: 0 5px 15px rgba(0, 0, 0, .5);
+     border: 1px solid rgba(0, 0, 0, .2);
+     border-radius: 6px;
+ }
+ 
+ .list-group {
+     list-style: none !important;
+ }
+ 
+ .list-panel ul {
+     height: 320px;
+     width: 100%;
+     overflow: auto;
+ }
+ 
+ .panel .list-group-button {
+     height: 40px;
+ }
+ 
+ .panel {
+     border: 1px solid #ddd;
+ }
+ 
+ .table-striped>tbody>tr:nth-of-type(odd) {
+     background-color: rgba(249, 249, 249, 0);
+ }
+ 
+ form {
+     padding-left: 20px;
+ }
+ 
+ .panel button {
+     float: right !important;
+     margin: 5px 15px !important;
+ }
+ 
+ .nav ul {
+     cursor: default;
+     font-size: .8em;
+     list-style-type: none;
+     /*   list-style-type: decimal; */
+ }
+ 
+ .has-warning {
+     /* 为has-warning容器内部的form-control控件设置边框和阴影效果*/
+     border-color: #8a6d3b !important;
+     -webkit-box-shadow: inset 0 1px 1px rgba(0, 0, 0, .075);
+     box-shadow: inset 0 1px 1px rgba(0, 0, 0, .075);
+ }
+ 
+ .has-warning:focus {
+     /* has-warning容器内部的控件在得到焦点时的效果颜色更深*/
+     border-color: #66512c !important;
+     -webkit-box-shadow: inset 0 1px 1px rgba(0, 0, 0, .075), 0 0 6px #c0a16b;
+     box-shadow: inset 0 1px 1px rgba(0, 0, 0, .075), 0 0 6px #c0a16b;
+ }
+ 
+ .has-warning .input-group-addon {
+     /* addon的背景色和字体颜色也要同步设置*/
+     color: #8a6d3b;
+     background-color: #fcf8e3;
+     border-color: #8a6d3b;
+ }
+ 
+ .selected {
+     border: 1px solid #ff0;
+     z-index: 99;
+     background: #ff0;
+     padding: 5px !important;
+     border-width: 1px !important;
+ }
+ 
+ .selected .inline-tools {
+     display: inline-block;
+ }
+ 
+ .selected .inline-tools a {
+     text-decoration: none;
+ }
+ 
+ .md-button.md-fab.md-mini {
+     line-height: 2rem;
+     width: 2rem;
+     z-index: 34;
+     transform: rotate(114deg);
+     height: 2rem;
+ }
+ 
+ .md-button.md-icon-button {
+     margin: 0 0.6rem;
+     height: 0.8rem;
+     min-width: 0;
+     line-height: 0.8rem;
+     padding-left: 0;
+     padding-right: 0;
+     /*     width: 0.8rem; */
+ }
+ 
+ table {
+     width: 100%;
+ }
+ 
+ table td {
+     text-align: center;
+     height: 40px;
+ }
+ 
+ .md-api-table td,
+ .md-api-table th {
+     padding: 0 10px;
+     border-bottom: 1px solid #e7eaec;
+     text-align: left;
+ }
+ 
+ table thead {
+     line-height: 40px;
+ }
+ 
+ table.md-api-table .selected td {
+     background-color: #ff0 !important;
+ }
+ 
+ table.md-api-table tr td:first-child {
+     font-weight: bold;
+ }
+ 
+ .md-api-table tr:nth-child(odd) td {
+     background-color: #f9f8f8;
+ }
+ 
+ .md-api-table tr:nth-child(even) td {
+     background-color: #fff;
+ }
+ 
+ .glyphicon {
+     position: relative;
+     top: 4px;
+     display: inline-block;
+     font-family: 'Glyphicons Halflings';
+     font-style: normal;
+     font-weight: 400;
+     line-height: 1;
+     -webkit-font-smoothing: antialiased;
+     -moz-osx-font-smoothing: grayscale;
+ }
+ 
+ .glyphicon-remove:before {
+     content: "\e014";
+ }
+ 
+ .glyphicon-pencil:before {
+     content: "\270f";
+ }
+ 
+ .selected .inline-tools {
+     display: inline-block;
+     /*   margin-top: -5px; */
+ }
+ 
+ .map {
+     height: 800px;
+     width: 200px;
+     overflow-y: scroll;
+ }
+ 
+ .map::-webkit-scrollbar {
+     width: 10px;
+ }
+ 
+ .map::-webkit-scrollbar-track {
+     background-color: #f9f7f7;
+     border-radius: 10px;
+ }
+ 
+ .map::-webkit-scrollbar-thumb {
+     background-color: #555;
+     border-radius: 10px;
+ }
+ 
+ .map::-webkit-scrollbar-track {
+     border-radius: 10px;
+ }
+ 
+ .map button {
+     min-width: 130px;
+ }

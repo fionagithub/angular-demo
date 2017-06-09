@@ -1,0 +1,112 @@
+{
+  "ids": {
+    "User": 1,
+    "AccessToken": 1,
+    "ACL": 1,
+    "RoleMapping": 1,
+    "Role": 1,
+    "ts_map": 1273,
+    "ts_deviceinfo": 33301011001075096,
+    "ts_devicetype": 1103333133403,
+    "ts_devicesystype": 87655709,
+    "V_DevicePointList": 240316,
+    "ts_newmonitortypegroup": 90053,
+    "ts_monitortypes": 901046,
+    "ts_deviceinfogroupdefine": 50401011024013900,
+    "ts_devicepoint": 10101010901002092,
+    "ts_devicetypemonitortypegroup": 1145,
+    "ts_device_define": 47459,
+    "ts_monitortype": 66667
+  },
+  "models": {
+    "AccessToken": {},
+    "ACL": {},
+    "RoleMapping": {},
+    "Role": {},
+    "ts_monitortypes": {
+      "900201": "{\"monitortypeid\":900201,\"monitortypegroupid\":9002,\"cmdname\":\"--test-=999=\",\"devicetypeid\":202}",
+      "900202": "{\"monitortypeid\":900202,\"monitortypegroupid\":9002,\"cmdname\":\"0=-=\",\"devicetypeid\":307}",
+      "900205": "{\"monitortypeid\":900205,\"monitortypegroupid\":9002,\"cmdname\":\"-0=-0\",\"devicetypeid\":203}",
+      "900206": "{\"monitortypeid\":900206,\"monitortypegroupid\":9002,\"cmdname\":\"9-90-\",\"devicetypeid\":202}",
+      "900208": "{\"monitortypeid\":900208,\"monitortypegroupid\":9002,\"cmdname\":\"--==888-==\",\"devicetypeid\":306}",
+      "901001": "{\"monitortypeid\":901001,\"monitortypegroupid\":9001,\"devicetypeid\":901,\"cmdname\":\"readDeviceStatus\",\"description\":\"设备状态\"}",
+      "901006": "{\"monitortypeid\":901006,\"monitortypegroupid\":5,\"cmdname\":\"80998\",\"devicetypeid\":205}",
+      "901030": "{\"monitortypeid\":901030,\"monitortypegroupid\":1,\"cmdname\":\"111\",\"description\":\"111\",\"devicetypeid\":101}",
+      "901031": "{\"monitortypeid\":901031,\"monitortypegroupid\":1,\"cmdname\":\"222\",\"description\":\"222\",\"devicetypeid\":202}",
+      "901032": "{\"monitortypeid\":901032,\"monitortypegroupid\":9005,\"cmdname\":\"778\",\"devicetypeid\":1103333133345}",
+      "901033": "{\"monitortypeid\":901033,\"monitortypegroupid\":null,\"devicetypeid\":null}",
+      "901034": "{\"monitortypeid\":901034,\"monitortypegroupid\":null,\"devicetypeid\":null}",
+      "901035": "{\"monitortypeid\":901035,\"monitortypegroupid\":null,\"devicetypeid\":null}",
+      "901036": "{\"monitortypeid\":901036,\"monitortypegroupid\":9006,\"cmdname\":\"\",\"devicetypeid\":204,\"description\":\"是的发送到发送到\"}",
+      "901037": "{\"monitortypeid\":901037,\"monitortypegroupid\":null,\"devicetypeid\":null}",
+      "901038": "{\"monitortypeid\":901038,\"monitortypegroupid\":2,\"devicetypeid\":202}",
+      "901039": "{\"monitortypeid\":901039,\"monitortypegroupid\":2,\"devicetypeid\":202}",
+      "901040": "{\"monitortypeid\":901040,\"monitortypegroupid\":null,\"devicetypeid\":null}",
+      "901041": "{\"monitortypeid\":901041,\"monitortypegroupid\":null,\"devicetypeid\":null}",
+      "901042": "{\"monitortypeid\":901042,\"monitortypegroupid\":1,\"devicetypeid\":null}",
+      "901043": "{\"monitortypeid\":901043,\"monitortypegroupid\":1,\"devicetypeid\":101}",
+      "901044": "{\"monitortypeid\":901044,\"monitortypegroupid\":null,\"devicetypeid\":null}",
+      "901045": "{\"monitortypeid\":901045,\"monitortypegroupid\":null,\"devicetypeid\":null}"
+    },
+    "ts_devicetype": {
+      "101": "{\"devicetypeid\":101,\"devicetypename\":\"四ぐ\",\"devicesystemtypeid\":1,\"iconsrc\":null}",
+      "912": "{\"devicetypeid\":912,\"devicetypename\":\"312312\",\"devicesystemtypeid\":null}",
+      "1101": "{\"devicetypeid\":1101,\"devicetypename\":\"---tes9999-==-\",\"devicesystemtypeid\":11}",
+      "1103333133344": "{\"devicetypeid\":1103333133344,\"devicetypename\":\"消防梯111111\",\"devicesystemtypeid\":26}",
+      "1103333133345": "{\"devicetypeid\":1103333133345,\"devicetypename\":\"三星三星三星三星三星三星三星三星三星三星\",\"devicesystemtypeid\":null}",
+      "1103333133346": "{\"devicetypeid\":1103333133346,\"devicetypename\":\"≡\",\"devicesystemtypeid\":1}",
+      "1103333133347": "{\"devicetypeid\":1103333133347,\"devicetypename\":\"AA1\",\"devicesystemtypeid\":1}",
+      "1103333133348": "{\"devicetypeid\":1103333133348,\"devicesystemtypeid\":null}",
+      "1103333133349": "{\"devicetypeid\":1103333133349,\"devicesystemtypeid\":null,\"undefined\":\"666666\"}"
+    },
+    "ts_devicesystype": {
+      "0": "{\"devicesystemtypeid\":0,\"devicesystemtypename\":\"--请选择设备系统类型--\"}",
+      "1": "{\"devicesystemtypeid\":1,\"devicesystemtypename\":\"--test---\"}",
+      "11": "{\"devicesystemtypeid\":11,\"devicesystemtypename\":\"eleven--\"}",
+      "12": "{\"devicesystemtypeid\":12,\"devicesystemtypename\":\"---999---\"}",
+      "14": "{\"devicesystemtypeid\":14,\"devicesystemtypename\":\"三星\"}",
+      "26": "{\"devicesystemtypeid\":26,\"devicesystemtypename\":\"--==98555588==---\"}",
+      "27": "{\"devicesystemtypeid\":27,\"devicesystemtypename\":\"---new-===--\"}"
+    },
+    "ts_map": {
+      "334": "{\"mapid\":334,\"mapname\":\"B区\",\"mapno\":null,\"maplocation\":null,\"maptype\":1,\"source\":null,\"open\":true}",
+      "345": "{\"mapid\":345,\"mapname\":\"B2F\",\"mapno\":334,\"maplocation\":\"B区\",\"maptype\":\"1\",\"source\":\"maps/Img446358135.jpeg\"}"
+    },
+    "ts_deviceinfo": {
+      "168898": "{\"autoid\":168898,\"deviceid\":\"030101011002083003\",\"devicename\":\"2F东裙房配电间烟感L83-3\",\"devicetypeid\":301,\"axisx\":1862,\"axisy\":933,\"mapid\":350,\"deviceno\":null}"
+    },
+    "V_DevicePointList": {
+      "228188": "{\"autoid\":228188,\"deviceid\":\"030101010903022005\",\"devicename\":\"B3F雨水机房T/5轴烟感L22-5\",\"devicetypeid\":301,\"axisx\":586,\"axisy\":234,\"mapid\":346,\"deviceno\":\"L22-5\",\"monitor\":\"005FA8B1\",\"cmdname\":null}"
+    },
+    "ts_newmonitortypegroup": {
+      "1": "{\"monitortypegroupid\":1,\"description\":\"--==tes99t-=\"}",
+      "7007": "{\"monitortypegroupid\":7007,\"description\":\"隔离开关\"}",
+      "9001": "{\"monitortypegroupid\":9001,\"description\":\"LED屏\"}",
+      "9002": "{\"monitortypegroupid\":9002,\"description\":\"-=455=-\"}",
+      "9003": "{\"monitortypegroupid\":9003,\"description\":\"数据\"}",
+      "9004": "{\"monitortypegroupid\":9004,\"description\":\"111\"}",
+      "9005": "{\"monitortypegroupid\":9005,\"description\":\"-5555555-\"}",
+      "9006": "{\"monitortypegroupid\":9006,\"description\":\"苹果\"}",
+      "9007": "{\"monitortypegroupid\":9007,\"description\":\"34353\"}"
+    },
+    "ts_deviceinfogroupdefine": {
+      "50201011008010104": "{\"deviceid\":50201011008010104,\"subdeviceid\":\"050201011008010105\",\"templatename\":\"09\"}",
+      "30101010903022004": "{\"deviceid\":30101010903022004,\"subdeviceid\":\"30101010903022004,30101010903022016\",\"templatename\":\"--==999=-\",\"undefined\":null,\"prefix\":30101010903022004,\"subDataItem\":[\"30101010903022004\",\"30101010903022016\"],\"tmp\":\"--==999=-\"}"
+    },
+    "ts_devicepoint": {
+      "10101010901002080": "{\"deviceid\":10101010901002080,\"cmdname\":\"JK-B1F-079\",\"monitortypeid\":101004,\"datasource\":null,\"monitor\":\"10.2.1.80\"}",
+      "10101010901002090": "{\"deviceid\":10101010901002090,\"cmdname\":\"---test---\",\"monitortypeid\":1,\"monitor\":\"123123\",\"undefined\":null}"
+    },
+    "ts_devicetypemonitortypegroup": {
+      "207": "{\"devicetypeid\":207,\"monitortypegroupid\":200002}",
+      "1101": "{\"devicetypeid\":1101,\"monitortypegroupid\":7007}"
+    },
+    "ts_device_define": {
+      "305": "{\"autoid\":46991,\"devicetypeid\":305,\"monitortypeid\":9,\"statusvalue\":\"0000\",\"alarmflg\":0,\"alarmlevel\":0,\"isdefault\":1,\"isanalogio\":0,\"valuecompareoprator\":\"=\",\"description\":\"正常\"}",
+      "47458": "{\"devicetypeid\":912,\"monitortypeid\":1,\"alarmlevel\":0,\"valuecompareoprator\":\"<\",\"description\":\"00-\",\"deviceid\":50201011008010104,\"subdeviceid\":\"050201011008010105\",\"templatename\":\"09\",\"autoid\":47458}"
+    },
+    "ts_monitortype": {
+      "66666": "{\"monitortypeid\":66666,\"monitortypegroupid\":7007,\"devtypeid\":\"1103333133344\",\"cmdname\":\"98\",\"description\":\"烟感\"}"
+    }
+  }
+}
